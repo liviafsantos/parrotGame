@@ -36,7 +36,7 @@ body {
     justify-content: center;
     position: relative;
     perspective: 1000px; 
-    transition: all 1s;
+    transition: all 1.2s;
     transform-style: preserve-3d;
 }
 .carta:active{
