@@ -104,7 +104,7 @@ function verificarFimDeJogo() {
     if (cartasViradas.length === qtde) {
         setTimeout(() => {
             alert(`Você ganhou com ${clicks} jogadas!`);
-        }, 500); 
+        }, 1000); 
     }
 }
 
