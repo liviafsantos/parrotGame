@@ -36,6 +36,11 @@ body {
     justify-content: center;
     position: relative;
     perspective: 1000px; 
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+.carta:active{
+    transform: rotateY(180deg); 
 }
 
 .carta div {
